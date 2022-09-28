@@ -10,5 +10,6 @@
 > 
 >**Note**
 >shadowsocks-all.sh is a clone from (https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh) for personal use ,please lookup his github
+
 >**Note**
 >reference:  https://teddysun.com/486.html
