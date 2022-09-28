@@ -25,7 +25,7 @@
 
 YOUR_IPSEC_PSK='clark'
 YOUR_USERNAME='clark'
-YOUR_PASSWORD='0655'
+YOUR_PASSWORD='0000'
 
 # VPN client setup: https://vpnsetup.net/clients
 
