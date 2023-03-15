@@ -11,7 +11,7 @@ ssh-keygen -A
 passwd
 echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
 echo 'PasswordAuthentication  yes' >> /etc/ssh/sshd_config
-echo 'Port 22' >> /etc/ssh/sshd_config
+echo 'Port 333' >> /etc/ssh/sshd_config
 /usr/sbin/sshd
 echo 'ssh setup done !'
 rc-update add sshd
