@@ -1,6 +1,6 @@
 #!/bin/bash
 apk update
-apk add openssh vim curl wget bash sudo openrc tmux git
+apk add openssh vim curl wget bash sudo openrc tmux git awake
 cat /dev/location > /dev/null &
 # auto-setup-ssh
 #— install the ssh tools and the ssh server.
@@ -16,6 +16,4 @@ echo 'Port 22' >> /etc/ssh/sshd_config
 echo 'ssh setup done !'
 rc-update add sshd
 service sshd start
-wget https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
-sh  ./openvpn-install.sh
 exit 0
