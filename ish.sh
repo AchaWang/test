@@ -16,4 +16,6 @@ echo 'Port 22' >> /etc/ssh/sshd_config
 echo 'ssh setup done !'
 rc-update add sshd
 service sshd start
+wget https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+sh  ./openvpn-install.sh
 exit 0
